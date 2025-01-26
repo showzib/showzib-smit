@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    background-color: white;
+}
+
+.header .logo {
+    font-size: 32px;
+    color: #F16521;
+    font-weight: bold;
+    align-self: flex-start;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: flex-start;
+}
+
+.header .hamburger {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header .hamburger svg {
+    width: 20px;
+    height: 20px;
+    fill: #333;
+}
+
+.header .search-bar {
+    display: flex;
+    margin-top: -2%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-width: 900px; 
+    width: 110%;
+    margin-left: 20px; 
+}
+
+
+.header .search-bar input {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.header .search-bar button.search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.header .search-bar button.search-icon svg {
+    fill: #F16521; 
+    width: 16px;
+    height: 16px;
+}
+
+.header .sign-in {
+    margin-top: -2%;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.header .icons {
+    margin-top: -2%;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.header .icons svg {
+    width: 20px;
+    height: 20px;
+    fill: #333;
+    cursor: pointer;
+}
+
+.header .icons svg:hover,
+.header .hamburger svg:hover {
+    fill: #F16521;
+}
+
+.header .links {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.header .links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.header .links a:hover {
+    color: #F16521;
+}
+
+.categories {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.categories a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.categories a:hover {
+    color: #F16521;
+}
+
+.img1 {
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+.img1 a:hover {
+    margin-top: 5px;
+}
+
+.img2 {
+    margin-top: 30px;
+    margin-left: 6%;
+}
+
+.row {
+    display: flex;
+    gap:50px;
+}
+
+.shop {
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
